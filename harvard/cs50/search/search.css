@@ -1,0 +1,33 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+#page-title {
+    width: 100%;
+    font-size:1.5em;
+}
+
+#page-header > ul {
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+#page-header > ul > li { 
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+#page-body {
+    display: flex;
+}
+
+#page-body > div {
+    width:30%;
+}
+
